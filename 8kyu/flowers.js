@@ -8,3 +8,6 @@
 function inLove(flower1, flower2) {
     return flower1 % 2 + flower2 % 2 == 1
 }
+
+const result = inLove(5, 3);
+console.log(result);
